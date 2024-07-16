@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name" translatable="false">IndoorAirQualityMonitoring</string>
+    <string name="signUp_Option">Sign up</string>
+    <string name="signIn_Option">Sign in</string>
+    <string name="title" translatable="false">Atmosphere</string>
+    <string name="developer" translatable="false">UIT</string>
+    <string name="intro">An application for everyone providing useful information about indoor air quality</string>
+    <string name="signIn">sign in</string>
+    <string name="or">Or</string>
+    <string name="signUp">sign up</string>
+    <string name="continueGoogle">Continue with Google</string>
+    <string name="welcome">WELCOME!</string>
+    <string name="username">Username</string>
+    <string name="pwd">Password</string>
+    <string name="confirmPWD">Confirm Password</string>
+    <string name="forgetPWD">Forget Password?</string>
+    <string name="back">back</string>
+    <string name="showPWD">Show Password?</string>
+    <string name="haveAnyAccount">Do not have any account?</string>
+    <string name="register">REGISTER</string>
+    <string name="email">Email</string>
+    <string name="alreadyHaveAccount">Already have an account?</string>
+    <string name="createAccount">create account</string>
+    <string name="emptyUsername">Please enter username!</string>
+    <string name="emptyPassword">Please enter password!</string>
+    <string name="limitCharactersUsername">Username must be 20 characters at most!</string>
+    <string name="limitCharactersPass">Password must be 20 characters at most!</string>
+    <string name="noSpacesUsername">No spaces in username!</string>
+    <string name="noSpacesPass">No spaces in password!</string>
+    <string name="emptyEmail">Please enter email address!</string>
+    <string name="emptyConfirmPass">Please enter password again!</string>
+    <string name="invalidEmail">Invalid email!</string>
+    <string name="notEqualsPass">Password not matches!</string>
+    <string name="classId" translatable="false">openremote</string>
+    <string name="grantType" translatable="false">password</string>
+    <string name="langDialogTitle">Please choose a language</string>
+    <string name="langEN">English</string>
+    <string name="langVN">Vietnamese</string>
+    <string name="langJP">Japanese</string>
+    <string name="waitLoadingEN" translatable="false">Please wait ...</string>
+    <string name="waitLoadingVN" translatable="false">Vui lòng chờ ...</string>
+    <string name="waitLoadingJP" translatable="false">お待ちください ...</string>
+    <string name="dialogStatusSuccess">Success</string>
+    <string name="dialogStatusError">Error</string>
+    <string name="loginSuccess">Welcome back!</string>
+    <string name="loginError">Invalid account!</string>
+    <string name="registerSuccess">Sign up successfully!</string>
+    <string name="registerError">Email already exists!</string>
+    <string name="closeStatusDialog">Done</string>
+    <string name="home">Home</string>
+    <string name="features">Features</string>
+    <string name="chart">Chart</string>
+    <string name="account">User</string>
+    <string name="weather_dialog_title">Default Weather</string>
+    <string name="humidity">Humidity (%)</string>
+    <string name="manufacturer">Manufacturer</string>
+    <string name="place">Place</string>
+    <string name="rainfall">Rainfall (mm)</string>
+    <string name="temperature">Temperature (°C)</string>
+    <string name="windSpeed">Wind speed (km/h)</string>
+    <string name="light_dialog_title">Light</string>
+    <string name="brightness">Brightness (%)</string>
+    <string name="color_temp">Color Temperature (K)</string>
+    <string name="on_off">On off</string>
+    <string name="hi_welcome">Hi</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="sunrise">Sunrise</string>
+    <string name="sunset">Sunset</string>
+    <string name="features_humidity">Humidity</string>
+    <string name="features_rainfall">Rainfall</string>
+    <string name="features_windSpeed">Wind speed</string>
+    <string name="features_pressure">Pressure</string>
+    <string name="attributes">Attributes</string>
+    <string name="timeframe">Time frame</string>
+    <string name="tf_hour">Hour</string>
+    <string name="tf_day">Day</string>
+    <string name="tf_week">Week</string>
+    <string name="tf_month">Month</string>
+    <string name="tf_year">Year</string>
+    <string name="ending">Ending</string>
+    <string name="user_lang_settings">Language settings</string>
+    <string name="user_reset_pwd">Reset password</string>
+    <string name="resetPWD_dialog_title">Reset password</string>
+    <string name="newPWD">New Password</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="manufactureValue" translatable="false">uiot</string>
+    <string name="location">Bien Hoa</string>
+    <string name="appid" translatable="false">63971ca355e720759dffc1bcedc8edb2</string>
+    <string name="thunderstorm">Thunderstorm</string>
+    <string name="drizzle">Drizzle</string>
+    <string name="rain">Rain</string>
+    <string name="snow">Snow</string>
+    <string name="mist">Mist</string>
+    <string name="smoke">Smoke</string>
+    <string name="haze">Haze</string>
+    <string name="sandDust">Sand dust</string>
+    <string name="fog">Fog</string>
+    <string name="sand">Sand</string>
+    <string name="dust">Dust</string>
+    <string name="ash">Ash</string>
+    <string name="squall">Squall</string>
+    <string name="tornado">Tornado</string>
+    <string name="clearSky">Clear sky</string>
+    <string name="clouds">Clouds</string>
+    <string name="signOut">Sign out</string>
+    <string name="signOutDialogTitle">Are you sure?</string>
+    <string name="ok">OK</string>
+    <string name="defaultWeatherAssetID" translatable="false">5zI6XqkQVSfdgOrZ1MyWEf</string>
+    <string name="lightAssetID" translatable="false">6iWtSbgqMQsVq8RPkJJ9vo</string>
+    <string name="typeDatapoint" translatable="false">lttb</string>
+    <string name="on">On</string>
+    <string name="off">Off</string>
+</resources>

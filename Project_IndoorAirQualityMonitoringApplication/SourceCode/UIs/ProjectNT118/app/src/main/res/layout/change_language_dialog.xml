@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/langDialogTitle"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:padding="12dp"
+        android:gravity="center"
+        android:background="@drawable/custom_textview"/>
+
+    <RadioGroup
+        android:id="@+id/rgLanguages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rbEnglish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="English"
+            android:textSize="22sp"
+            android:padding="16dp"
+            android:layout_margin="16dp"/>
+
+        <RadioButton
+            android:id="@+id/rbVietnamese"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vietnamese"
+            android:textSize="22sp"
+            android:padding="16dp"
+            android:layout_margin="16dp"/>
+
+        <RadioButton
+            android:id="@+id/rbJapanese"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Japanese"
+            android:textSize="22sp"
+            android:padding="16dp"
+            android:layout_margin="16dp"/>
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/btnConfirm"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:text="@string/confirm"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:backgroundTint="#7229D5"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="15dp"
+            android:layout_gravity="center"
+            android:text="@string/cancel"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:backgroundTint="#7229D5"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+</LinearLayout>

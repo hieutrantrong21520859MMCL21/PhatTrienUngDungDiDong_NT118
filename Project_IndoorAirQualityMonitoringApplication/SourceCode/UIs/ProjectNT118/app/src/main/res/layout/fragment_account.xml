@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.AccountFragment"
+    android:background="#ECECEC">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:id="@+id/accountRelativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/top_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <ImageView
+        android:id="@+id/imgAvatar"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/avatar_default"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="@id/accountRelativeLayout"
+        app:layout_constraintTop_toBottomOf="@id/accountRelativeLayout"
+        app:layout_constraintStart_toStartOf="@id/accountRelativeLayout"
+        app:layout_constraintBottom_toBottomOf="@id/accountRelativeLayout"/>
+
+    <TextView
+        android:id="@+id/tvUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/imgAvatar"
+        app:layout_constraintTop_toBottomOf="@id/imgAvatar"
+        app:layout_constraintStart_toStartOf="@id/imgAvatar"/>
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="example@gmail.com"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="@id/tvUsername"
+        app:layout_constraintTop_toBottomOf="@id/tvUsername"
+        app:layout_constraintStart_toStartOf="@id/tvUsername"/>
+
+    <TextView
+        android:id="@+id/tvCreatedOn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="09:09:00"
+        android:drawablePadding="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="@id/tvEmail"
+        app:layout_constraintTop_toBottomOf="@id/tvEmail"
+        app:layout_constraintStart_toStartOf="@id/tvEmail"
+        app:drawableStartCompat="@drawable/time_icon" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="275dp"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="@id/tvCreatedOn"
+        app:layout_constraintTop_toBottomOf="@id/tvCreatedOn"
+        app:layout_constraintStart_toStartOf="@id/tvCreatedOn">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnLanguage"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/custom_button_background"
+            android:drawableStart="@drawable/languages_icon"
+            android:drawablePadding="20dp"
+            android:paddingStart="20dp"
+            android:text="@string/user_lang_settings"
+            android:textSize="20sp"
+            style="@android:style/Widget.Button"
+            android:textStyle="bold"
+            android:textAlignment="viewStart"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnResetPassword"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/custom_button_background"
+            android:drawableStart="@drawable/reset_password_icon"
+            android:drawablePadding="20dp"
+            android:paddingStart="20dp"
+            android:text="@string/user_reset_pwd"
+            android:textSize="20sp"
+            style="@android:style/Widget.Button"
+            android:textStyle="bold"
+            android:textAlignment="viewStart"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSignOut"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/custom_button_background"
+            android:drawableStart="@drawable/sign_out_icon"
+            android:drawablePadding="20dp"
+            android:paddingStart="20dp"
+            android:text="@string/signOut"
+            android:textSize="20sp"
+            style="@android:style/Widget.Button"
+            android:textStyle="bold"
+            android:textAlignment="viewStart"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
